@@ -1,0 +1,95 @@
+#paineis-sobre{
+	margin=top: 20px;
+}
+
+.titulo-depoimentos{
+	background-color: #0275D8;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	margin-bottom: 0;
+	color: #fff;
+	font-size: 22px;
+
+}
+
+html, body{
+	height: 100%;
+}
+
+header {
+	background-image: url(img/castelo.jpg);
+	height: 100%;
+	background-size: cover;
+	background-position: top center; 
+/* para centralizar a imagem temos que utilizar o background mo header
+ , no body e no pai que é o html senão nao ocupará toda a tela */
+ position: relative;
+}
+
+.topCasaFina-banner{
+	color: #fff;
+	background-color: rgba(0,0,0,0.5);
+	/*para deixar opacidade 255 é o maximo e 0 é o minimo */
+	padding: 10px; 
+	width: 80%;
+	border-radius: 8px;
+	position: absolute;
+	top: 50%;
+	left: 40%;
+	transform: translate(-40%, -40%);
+	transition: 3s;
+
+}
+
+header h1{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.contato-select, 
+.grupo-radio { 
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.grupo-radio .radio:first-child {
+    margin-top: 0;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	margin-top: 20px;
+
+}
+
+footer address: last-child{
+	margin-bottom: 0;
+
+}
+
+@media(min-width: 768px){
+#paineis-sobre {
+	margin-top: 0;
+	}
+}
+
+@media(min-width: 992px){
+	.topCasaFina-banner {
+		left: 0;
+		transform: translate(0%, -50%);
+		width: 50%;
+	}
+
+	.topCasaFina-bannerWapper {
+		position: relative;
+		height: 100%;
+	}
+}
+.projetos-responsivo {
+	width: 50%;
+	float: left;
+	
+}
+
